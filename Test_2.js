@@ -1,11 +1,17 @@
 function findLocation(x, arr){
-    count = 0;
+    // count = 0;
+    // for(let i = 0; i < arr.length; i++){
+    //     if(arr[i] == x){
+    //         count = i + 1;
+    //     }
+    // }
+    // return count;
     for(let i = 0; i < arr.length; i++){
         if(arr[i] == x){
-            count = i + 1;
+           return i;
         }
     }
-    return count;
+    return -1;
 }
 console.log(findLocation(7,[1,3,5,7,9]));
 

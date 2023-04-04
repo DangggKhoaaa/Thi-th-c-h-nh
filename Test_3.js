@@ -13,4 +13,4 @@ function countNumbers(arr){
     }
 }
 
-console.log(countNumbers("codegym"));
+console.log(countNumbers("eretyrutiyolikujhyn"));

@@ -20,14 +20,14 @@ class Animal{
     }
     
 }
-let animals = new Animal("dog", "10")
+// let animals = new Animal("dog", "10")
 
-animals.setName = ("pig");
-console.log(animals.getName());
-animals.setWeight = ("50");
-console.log(animals.getWeight());
+// animals.setName = ("pig");
+// console.log(animals.getName());
+// animals.setWeight = ("50");
+// console.log(animals.getWeight());
 
-animals.toString = ("pig" + "50");
+// animals.toString = ("pig" + "50");
 
 
 
